@@ -1,9 +1,8 @@
-import crypto_utils as crypto_utils
+from crypto_utils import CryptoWallet
 
-
-wallet=crypto_utils.deposit("ETH", 0.7)
-print(wallet)
-
+my_wallet=CryptoWallet('Ruth')
+my_wallet.deposit("ETH", 0.7)
+print(my_wallet.view_balance())
 
 #wallet=cryptowallet("Joseph")
 #wallet.deposit("ETH", 0.7)

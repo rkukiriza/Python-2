@@ -1,6 +1,6 @@
 
 class CryptoWallet:
-    def init_(self, owner):
+    def __init__(self, owner):
         self.owner= owner
         self.balance={} 
 # creating  a function
