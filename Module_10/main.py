@@ -1,4 +1,4 @@
-import Module_10.crypto_utils as crypto_utils
+import crypto_utils as crypto_utils
 
 
 wallet=crypto_utils.deposit("ETH", 0.7)
